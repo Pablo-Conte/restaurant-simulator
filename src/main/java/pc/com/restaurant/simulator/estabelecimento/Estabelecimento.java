@@ -1,11 +1,11 @@
 package pc.com.restaurant.simulator.estabelecimento;
 
-import cardapio.Bebida;
-import cardapio.ItemCardapio;
-import cardapio.Lanche;
-import cliente.Pessoa;
 import java.util.ArrayList;
 import java.util.List;
+import pc.com.restaurant.simulator.cardapio.Bebida;
+import pc.com.restaurant.simulator.cardapio.ItemCardapio;
+import pc.com.restaurant.simulator.cardapio.Lanche;
+import pc.com.restaurant.simulator.cliente.Pessoa;
 
 public class Estabelecimento {
     private String nome;

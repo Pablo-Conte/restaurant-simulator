@@ -1,4 +1,4 @@
-package cliente;
+package pc.com.restaurant.simulator.cliente;
 
 public class Pessoa {
     private String nome;

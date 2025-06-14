@@ -4,10 +4,6 @@
  */
 package pc.com.restaurant.simulator.ui;
 
-import cardapio.Bebida;
-import cardapio.ItemCardapio;
-import cardapio.Lanche;
-import cliente.Pessoa;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Font;
@@ -21,6 +17,10 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
+import pc.com.restaurant.simulator.cardapio.Bebida;
+import pc.com.restaurant.simulator.cardapio.ItemCardapio;
+import pc.com.restaurant.simulator.cardapio.Lanche;
+import pc.com.restaurant.simulator.cliente.Pessoa;
 import pc.com.restaurant.simulator.estabelecimento.ItemPedido;
 import pc.com.restaurant.simulator.estabelecimento.Pedido;
 import pc.com.restaurant.simulator.estabelecimento.StatusPedido;
@@ -85,6 +85,8 @@ public class MainFrame extends javax.swing.JFrame {
                 return label;
             }
         });
+        
+        tabelaDePedidos.getTableHeader().setReorderingAllowed(false);
     }
     
     private void atualizarTabelaPedidos() {

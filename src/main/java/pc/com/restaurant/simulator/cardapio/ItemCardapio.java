@@ -1,4 +1,4 @@
-package cardapio;
+package pc.com.restaurant.simulator.cardapio;
 
 public abstract class ItemCardapio {
     private String nome;

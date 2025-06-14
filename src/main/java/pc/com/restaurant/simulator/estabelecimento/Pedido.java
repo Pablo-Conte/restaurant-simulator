@@ -2,8 +2,8 @@ package pc.com.restaurant.simulator.estabelecimento;
 
 import java.util.List;
 
-import cliente.Pessoa;
 import java.time.LocalDateTime;
+import pc.com.restaurant.simulator.cliente.Pessoa;
 
 public class Pedido {
     int id;

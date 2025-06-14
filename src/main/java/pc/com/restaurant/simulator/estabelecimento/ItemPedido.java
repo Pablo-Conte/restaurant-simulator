@@ -1,6 +1,6 @@
 package pc.com.restaurant.simulator.estabelecimento;
 
-import cardapio.ItemCardapio;
+import pc.com.restaurant.simulator.cardapio.ItemCardapio;
 
 public class ItemPedido {
     private ItemCardapio itemCardapio;

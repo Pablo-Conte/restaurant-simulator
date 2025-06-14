@@ -2,17 +2,16 @@ package pc.com.restaurant.simulator;
 
 import pc.com.restaurant.simulator.ui.MainFrame;
 import java.util.ArrayList;
+import pc.com.restaurant.simulator.cardapio.Bebida;
+import pc.com.restaurant.simulator.cardapio.ItemCardapio;
+import pc.com.restaurant.simulator.cardapio.Lanche;
+import pc.com.restaurant.simulator.cliente.Pessoa;
 
-import cardapio.Bebida;
-import cardapio.ItemCardapio;
-import cardapio.Lanche;
-import cliente.Pessoa;
 import pc.com.restaurant.simulator.estabelecimento.Estabelecimento;
 
 public class RestaurantSimulator {
     public static void main(String[] args) throws Exception {
         Estabelecimento tiririca = new Estabelecimento("Tiririca Lanches");
-        Estabelecimento restauranteDoZe = new Estabelecimento("Restaurante do Zé");
 
         ArrayList<ItemCardapio> cardapio = new ArrayList<>();
 
